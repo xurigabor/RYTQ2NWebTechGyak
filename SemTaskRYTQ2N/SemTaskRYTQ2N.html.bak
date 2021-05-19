@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="hu">
+ <head>
+  <meta charset="UTF-8">
+  <title>Beadandó</title>
+  <style>
+  body{
+  background-color: #fff;
+  margin: 0;
+  font-family: 'Helvetica';
+  }
+  .beadando {
+  box-sizing:border-box;
+  margin: auto
+  }
+  header{
+  background: url('kepek/egyetem.jpg') no-repeat;
+  background-size: cover;
+  background-position: center top;
+  height: 300px;
+  position: relative;
+  }
+  nav{
+  background: rgba(190,0,0,.8);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  }
+  nav::after{
+  content:'';
+  clear: both;
+  display: table;
+  }
+  nav a{
+  color: #fff;
+  padding: 20px;
+  display: block;
+  }
+  nav a:hover{
+  background: rgba(0,0,0,.5);
+  }
+  nav ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  }
+  nav ul li{
+  float: left;
+  width: 25%;
+  text-align: center;
+  }
+  footer {
+  background: rgba(190,0,0,.8);
+  color: #fff;
+  padding: 1px;
+  position:relative;
+  bottom:0;
+  left:0;
+  right:0;
+  }
+  footer a{
+  color: inherit;
+  }
+  .container {
+  overflow: hidden;
+  padding-top: 583px;
+  position: relative;
+}
+
+  .keret {
+  border: 0;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+  </style>
+
+ </head>
+ <body>
+
+ <div class="beadando">
+ <header>
+	<nav>
+		<ul style = "padding-left: 28px">
+			<li><a href='auto.html' target='keret'>Bevezetés az autoelektronikába</a></li>
+			<li><a href='vedelem.html' target='keret'>Villamos védelmek és automatikák</a></li>
+			<li><a href='webtech.html' target='keret'>WEB-es technológiák</a></li>
+		</ul>
+	</nav>
+ </header>
+ <div class="container">
+ <iframe class="keret" name="keret" src="kezdolap.html" width="100%" scrolling="auto" frameborder="0" marginheight="10" style= "background:white">
+ </iframe>
+ </div>
+ <footer style="text-align:center">
+ <p>Készítette: Kereszturi Gábor RYTQ2N</p>
+ <p><a href='kezdolap.html' target="keret">Vissza a főoldalra</a></p>
+ </footer>
+ </div>
+
+ </body>
+</html>

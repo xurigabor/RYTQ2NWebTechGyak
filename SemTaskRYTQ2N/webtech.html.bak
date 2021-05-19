@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="hu">
+ <head>
+  <meta charset="UTF-8">
+  <title>Kezdolap</title>
+  <style>
+  table {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 14pt;
+
+  </style>
+ </head>
+ <body style="font-family:Helvetica">
+ <h1 style="text-align: center">WEB-es technológiák</h1>
+ <table>
+ <tr>
+ <td style="width:60%">
+<ul style = "list-style-type: none">
+	<li>Hálózati alapfogalmak, protokollok, HTTP protokoll</li>
+	<li>HTML űrlapok, objektumok beágyazása HTML-be, XHTML elemek</li>		
+	<li>Űrlap formázás elemei</li>		
+	<li>JavaScript alapok</li>
+	<li>jQuery nyelv elemei</li>
+	<li>Apache webszerver telepítés, web szerver architektúra</li>
+	<li>PHP nyelv alapjai: PHP szerver oldali programok fejlesztése</li>
+	<li>AJAX alapok</li>
+	<li>GWT elemek</li>
+	<li>Légzsákok</li>
+</ul>
+</td>
+<td>
+ <img src="kepek/webtech.jpg" height="300" class="center"></img>
+ </td>
+ </tr>
+ </table>
+ </body>
+</html>

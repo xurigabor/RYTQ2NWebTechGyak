@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="hu">
+ <head>
+  <meta charset="UTF-8">
+  <title>Kezdolap</title>
+  <style>
+
+  table {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 14pt;
+
+  </style>
+ </head>
+ <body style="font-family:Helvetica" >
+ <h1 style="text-align: center">Bevezetés az autoelektronikába</h1>
+ <br>
+ <table>
+ <tr>
+ <td style="width:60%">
+<ul style = "list-style-type: none">
+	<li>Gépkocsi villamos hálózata, Gépkocsi multiplex hálózata</li>
+	<li>Generátor, Generátor elektronikus feszültségszabályozója</li>		
+	<li>Akkumulátor, Akkumulátor menedzsment</li>		
+	<li>Indítómotor, Indító-generátor</li>
+	<li>Gyújtás, előgyújtás szabályozás, Kondenzátoros gyújtás</li>
+	<li>Benzinbefecskendezés</li>
+	<li>Automata sebességváltók</li>
+	<li>Közös nyomócsövű Diesel rendszer</li>
+	<li>Blokkolás-, kipörgés-gátlók és járműdinamika szabályozás</li>
+	<li>Légzsákok</li>
+	<li>Világítás, Litronic, PES LED világítás és világításfejlesztési rendszerek</li>
+	<li>Fedélzeti műszerek, fedélzeti diagnosztika, Diagnosztikai bemutatóli</li>
+	<li>Elektromágneses zavarvédelem</li>
+	<li>Hangjelző berendezés, ablaktörlő</li>
+	<li>Károsanyag kibocsátás felügyelete</li>
+	<li>Villamos hajtású gépkocsik</li>
+</ul>
+</td>
+<td>
+ <img src="kepek/auto.jpg" class="center" style="inline-block"></img>
+ </td>
+ </tr>
+ </table>
+ </body>
+</html>
